@@ -38,6 +38,7 @@ function buscarPez(banco_peces, pezBuscado) {
        if(pezBuscado == banco_peces[indicePez].nombre){
             pezEncontrado= true
         }
+        //No hace falta el if si hacemos una comparación nos da un Bolean----------------------------------------------- pezEncontrado = banco_peces[indicePez].nombre == pezBuscado;
         indicePez++;
     }
 
